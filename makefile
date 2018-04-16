@@ -13,7 +13,7 @@ LFLAGS=-L/usr/lib/x86_64-linux-gnu
 
 SRC=requestor.c
 OBJ=$(SRC:.c=.o)
-MAIN=requestor
+MAIN=hw
 
 RM=rm -rf
 
