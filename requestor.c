@@ -180,7 +180,7 @@ int main(int argc, char *argv[]) {
 				if(i == j) {
 					;
 				}
-				if((strcmp(argv[i],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
+				if((strcmp(argv[j],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
 					int k;
 					int message_len = 0;
 					for(k=4; k < argc; k++) {
@@ -211,7 +211,7 @@ int main(int argc, char *argv[]) {
 				if(i == j) {
 					;
 				}
-				if((strcmp(argv[i],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
+				if((strcmp(argv[j],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
 					int k;
 					int message_len = 0;
 					for(k=4; k < argc; k++) {
@@ -242,7 +242,7 @@ int main(int argc, char *argv[]) {
 				if(i == j) {
 					;
 				}
-				if((strcmp(argv[i],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
+				if((strcmp(argv[j],  "--url") == 0) || (strcmp(argv[j], "-u") == 0)) {
 					int k;
 					int message_len = 0;
 					for(k=4; k < argc; k++) {
